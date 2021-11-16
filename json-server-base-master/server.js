@@ -12,7 +12,6 @@ const rules = auth.rewriter({
   users: 600,
   meals: 444,
   restComments: 664,
-  mealsComments: 640,
   cart: 600,
 });
 

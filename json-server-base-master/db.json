@@ -135,10 +135,9 @@
       "id": 4
     }
   ],
-  "mealsComments": [],
   "cart": [
     {
-      "userId": 5,
+      "userId": 1,
       "order": [
         {
           "title": "Filé de peixe com molho de manjericão, brócolis ao alho e tomate ao forno",
@@ -152,7 +151,7 @@
       "id": 1
     },
     {
-      "userId": 5,
+      "userId": 2,
       "order": [
         {
           "title": "Coca-cola",
@@ -164,6 +163,21 @@
         }
       ],
       "id": 2
+    },
+    {
+      "userId": 3,
+      "order": [],
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "order": [],
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "order": [],
+      "id": 5
     }
   ]
 }
