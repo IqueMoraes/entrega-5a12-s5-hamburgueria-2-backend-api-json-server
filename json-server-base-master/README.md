@@ -9,12 +9,12 @@ USUÁRIO:
 -Cadastro    post   /users
 -Login   post   /users
 
-Comentários em ESPAÇO ABERTO:
+Cardápio e Comentários em ESPAÇO ABERTO:
 -Envio de opiniões sobre o restaurante    post e get /restComments
 -Acesso às opiniões sobre o restaurante    post e get /restComments
-
-Cardápio e comentários em ESPAÇO RESTRITO:
 -pratos e componentes disponíveis no cardápio      get /meals
+
+Comentários em ESPAÇO RESTRITO:
 -Envio de opiniões sobre os pratos     post /mealsComments
 -Acesso às opiniões sobre os pratos     get /mealsComments
 
@@ -136,7 +136,7 @@ Deve retornar:
 
 
 
-# e)Cardápio - Espaço restrito - acesso 
+# e)Cardápio - Espaço aberto - acesso 
 
 Endpoint de retorno com todos os pratos disponíveis.
 
@@ -151,7 +151,7 @@ GET /meals
 Usuários logados poderão enviar informações para esse endpoint.
 
 Para requisição:
-POST /congress
+POST /mealsComments
 
 No header da requisição deve conter o token de acesso do usuário logado no portador
 
@@ -183,7 +183,7 @@ Deve retornar:
 Somente usuários logados podem acessar as informações.
 
 Para requisição:
-GET /congress
+GET /mealsComments
 
 No header da requisição deve conter o token de acesso do usuário logado no portador
 

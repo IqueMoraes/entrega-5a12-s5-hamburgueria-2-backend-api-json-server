@@ -12,6 +12,24 @@
       "password": "$2a$10$ENAK/8JqW.KxOIuEfpmsZObRTLgs2VUe2woL69bVBniD5yj5mV.6i",
       "name": "Fernando Abreu",
       "id": 2
+    },
+    {
+      "email": "zeluiz@mail.com",
+      "password": "$2a$10$ji.kKgq7JHXu4CLqZwYRz.BmGFJs0iyrdF0INCwRW3ChRHzitIMBe",
+      "name": "José Luiz",
+      "id": 3
+    },
+    {
+      "email": "oliver@mail.com",
+      "password": "$2a$10$3qx.zCo98TMFpmBGvvOedecIq.2YHluhDm7UpZU4nngXMkXQHcxI2",
+      "name": "Oliver Augusto",
+      "id": 4
+    },
+    {
+      "email": "p.escobar@mail.com",
+      "password": "$2a$10$Og3hOIL.zVZdbYqf/FlOLu7I3qpleikegBczs7p3YJpbsPVU9KhOi",
+      "name": "Pablo Escobar",
+      "id": 5
     }
   ],
   "meals": [
@@ -88,6 +106,64 @@
       "id": 9
     }
   ],
-  "restComments": [],
-  "mealsComments": []
+  "restComments": [
+    {
+      "rating": 10,
+      "comment": "Ótimas opções saudáveis e gostosas!",
+      "author": "Fernando Abreu",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "rating": 9,
+      "comment": "Boa seleção de cardápio.",
+      "author": "Anônima",
+      "id": 2
+    },
+    {
+      "rating": 9,
+      "comment": "Boa apresentação dos pratos",
+      "author": "Pablo Escobar",
+      "userId": 5,
+      "id": 3
+    },
+    {
+      "rating": 10,
+      "comment": "Me lembra a comida da minha avó! (que era cozinheira)",
+      "author": "Anônimo",
+      "userId": 5,
+      "id": 4
+    }
+  ],
+  "mealsComments": [],
+  "cart": [
+    {
+      "userId": 5,
+      "order": [
+        {
+          "title": "Filé de peixe com molho de manjericão, brócolis ao alho e tomate ao forno",
+          "category": "food",
+          "meat": "fish",
+          "price": 38.5,
+          "discount": 0,
+          "id": 5
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 5,
+      "order": [
+        {
+          "title": "Coca-cola",
+          "category": "drinks",
+          "meat": "none",
+          "price": 5,
+          "discount": 0,
+          "id": 7
+        }
+      ],
+      "id": 2
+    }
+  ]
 }
